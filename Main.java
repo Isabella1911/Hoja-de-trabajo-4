@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // El camino al archivo puede necesitar ser ajustado según tu estructura de directorios
-        String filePath = "datos.txt";
+    String filePath = "datos.txt";
         File file = new File(filePath);
         
         try (Scanner scanner = new Scanner(file)) {
